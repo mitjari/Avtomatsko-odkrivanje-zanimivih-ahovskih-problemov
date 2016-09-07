@@ -1,0 +1,340 @@
+# depslib dependency file v1.0
+1450466967 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/bitboard.cpp
+	"bitboard.h"
+
+1450466967 /home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/bitboard.h
+	<stdint.h>
+	<string>
+
+1450466967 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/chessboard-fen.cpp
+	<string>
+	<regex>
+	<iostream>
+	<sstream>
+	"chessboard.h"
+	"utility.h"
+
+1453483502 /home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/chessboard.h
+	<string>
+	"bitboard.h"
+	"version.h"
+	"zobrist.h"
+
+1450466967 /home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/version.h
+
+1450469515 /home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/zobrist.h
+	<stdint.h>
+
+1450466967 /home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/utility.h
+	<string>
+	<chrono>
+
+1450466967 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/chessboard-perft.cpp
+	<string.h>
+	<vector>
+	<iostream>
+	<thread>
+	<atomic>
+	<new>
+	"chessboard.h"
+	"zobrist.h"
+	"utility.h"
+	"move.h"
+	"movearray.h"
+
+1453313846 /home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/move.h
+	<string>
+	"chessboard.h"
+
+1450466967 /home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/movearray.h
+	"move.h"
+
+1450466967 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/chessboard-string.cpp
+	<string>
+	<regex>
+	<iostream>
+	"chessboard.h"
+
+1450466967 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/chessboard.cpp
+	<string>
+	<iostream>
+	"chessboard.h"
+
+1450466967 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/move-bishop.cpp
+	"move.h"
+	"movearray.h"
+
+1450466967 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/move-king.cpp
+	"move.h"
+	"movearray.h"
+
+1450466967 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/move-knight.cpp
+	"move.h"
+	"movearray.h"
+
+1450466967 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/move-makemove.cpp
+	<string>
+	"chessboard.h"
+	"move.h"
+	<iostream>
+
+1450466967 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/move-pawn.cpp
+	"move.h"
+	"movearray.h"
+
+1450466967 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/move-rook.cpp
+	"move.h"
+	"movearray.h"
+
+1453984988 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/move.cpp
+	<string>
+	<sstream>
+	<iostream>
+	"chessboard.h"
+	"move.h"
+
+1450466967 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/rand64.cpp
+	"rand64.h"
+
+1450466967 /home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/rand64.h
+	<stdint.h>
+
+1455555264 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/utility.cpp
+	<chrono>
+	<thread>
+	"utility.h"
+
+1450469524 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/movegenerator/zobrist.cpp
+	<iostream>
+	"zobrist.h"
+	"chessboard.h"
+	"rand64.h"
+	"move.h"
+
+1473240698 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/Node.cpp
+	<iostream>
+	<sstream>
+	"Node.h"
+	"movegenerator/movearray.h"
+
+1456918605 /home/mitjari/Documents/PROGRAMIRANJE/Diploma/Node.h
+	<list>
+	<fstream>
+	<iostream>
+	"movegenerator/move.h"
+	"movegenerator/chessboard.h"
+	"Problem.h"
+
+1455529893 /home/mitjari/Documents/PROGRAMIRANJE/Diploma/Problem.h
+	<string>
+	<sstream>
+	"movegenerator/chessboard.h"
+	"movegenerator/move.h"
+
+1455529925 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/Problem.cpp
+	<fstream>
+	<iostream>
+	<sstream>
+	<cctype>
+	"Problem.h"
+
+1473167730 source:/home/mitjari/Documents/PROGRAMIRANJE/Diploma/main.cpp
+	<iostream>
+	<set>
+	<list>
+	<ctime>
+	<unordered_map>
+	"movegenerator/chessboard.h"
+	"movegenerator/move.h"
+	"movegenerator/movearray.h"
+	"Node.h"
+
+1389352728 /usr/x86_64-w64-mingw32/include/stdint.h
+	<crtdefs.h>
+	<stddef.h>
+
+1389352729 /usr/x86_64-w64-mingw32/include/crtdefs.h
+	<_mingw.h>
+
+1389352733 /usr/x86_64-w64-mingw32/include/_mingw.h
+	"_mingw_mac.h"
+	"_mingw_secapi.h"
+	"_cygwin.h"
+	<vadefs.h>
+	"sdks/_mingw_directx.h"
+	"sdks/_mingw_ddk.h"
+
+1389352726 /usr/x86_64-w64-mingw32/include/_mingw_mac.h
+
+1389352727 /usr/x86_64-w64-mingw32/include/_mingw_secapi.h
+
+1389352733 /usr/x86_64-w64-mingw32/include/_cygwin.h
+	<stddef.h>
+
+1389352731 /usr/x86_64-w64-mingw32/include/stddef.h
+	<crtdefs.h>
+
+1389352728 /usr/x86_64-w64-mingw32/include/vadefs.h
+	<_mingw.h>
+
+1389352732 /usr/x86_64-w64-mingw32/include/sdks/_mingw_directx.h
+
+1389352732 /usr/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
+
+1389352734 /usr/x86_64-w64-mingw32/include/string.h
+	<crtdefs.h>
+	<sec_api/string_s.h>
+
+1389352726 /usr/x86_64-w64-mingw32/include/sec_api/string_s.h
+	<string.h>
+
+1473167730 source:/home/mitjari/POPRAVKI/test/main.cpp
+	<iostream>
+	<set>
+	<list>
+	<ctime>
+	<unordered_map>
+	"movegenerator/chessboard.h"
+	"movegenerator/move.h"
+	"movegenerator/movearray.h"
+	"Node.h"
+
+1453483502 /home/mitjari/POPRAVKI/test/movegenerator/chessboard.h
+	<string>
+	"bitboard.h"
+	"version.h"
+	"zobrist.h"
+
+1450466967 /home/mitjari/POPRAVKI/test/movegenerator/bitboard.h
+	<stdint.h>
+	<string>
+
+1450466967 /home/mitjari/POPRAVKI/test/movegenerator/version.h
+
+1450469515 /home/mitjari/POPRAVKI/test/movegenerator/zobrist.h
+	<stdint.h>
+
+1453313846 /home/mitjari/POPRAVKI/test/movegenerator/move.h
+	<string>
+	"chessboard.h"
+
+1450466967 /home/mitjari/POPRAVKI/test/movegenerator/movearray.h
+	"move.h"
+
+1456918605 /home/mitjari/POPRAVKI/test/Node.h
+	<list>
+	<fstream>
+	<iostream>
+	"movegenerator/move.h"
+	"movegenerator/chessboard.h"
+	"Problem.h"
+
+1455529893 /home/mitjari/POPRAVKI/test/Problem.h
+	<string>
+	<sstream>
+	"movegenerator/chessboard.h"
+	"movegenerator/move.h"
+
+1450466967 source:/home/mitjari/POPRAVKI/test/movegenerator/bitboard.cpp
+	"bitboard.h"
+
+1450466967 source:/home/mitjari/POPRAVKI/test/movegenerator/chessboard-fen.cpp
+	<string>
+	<regex>
+	<iostream>
+	<sstream>
+	"chessboard.h"
+	"utility.h"
+
+1450466967 /home/mitjari/POPRAVKI/test/movegenerator/utility.h
+	<string>
+	<chrono>
+
+1450466967 source:/home/mitjari/POPRAVKI/test/movegenerator/chessboard-perft.cpp
+	<string.h>
+	<vector>
+	<iostream>
+	<thread>
+	<atomic>
+	<new>
+	"chessboard.h"
+	"zobrist.h"
+	"utility.h"
+	"move.h"
+	"movearray.h"
+
+1450466967 source:/home/mitjari/POPRAVKI/test/movegenerator/chessboard-string.cpp
+	<string>
+	<regex>
+	<iostream>
+	"chessboard.h"
+
+1450466967 source:/home/mitjari/POPRAVKI/test/movegenerator/chessboard.cpp
+	<string>
+	<iostream>
+	"chessboard.h"
+
+1450466967 source:/home/mitjari/POPRAVKI/test/movegenerator/move-bishop.cpp
+	"move.h"
+	"movearray.h"
+
+1450466967 source:/home/mitjari/POPRAVKI/test/movegenerator/move-king.cpp
+	"move.h"
+	"movearray.h"
+
+1450466967 source:/home/mitjari/POPRAVKI/test/movegenerator/move-knight.cpp
+	"move.h"
+	"movearray.h"
+
+1450466967 source:/home/mitjari/POPRAVKI/test/movegenerator/move-makemove.cpp
+	<string>
+	"chessboard.h"
+	"move.h"
+	<iostream>
+
+1450466967 source:/home/mitjari/POPRAVKI/test/movegenerator/move-pawn.cpp
+	"move.h"
+	"movearray.h"
+
+1450466967 source:/home/mitjari/POPRAVKI/test/movegenerator/move-rook.cpp
+	"move.h"
+	"movearray.h"
+
+1453984988 source:/home/mitjari/POPRAVKI/test/movegenerator/move.cpp
+	<string>
+	<sstream>
+	<iostream>
+	"chessboard.h"
+	"move.h"
+
+1450466967 source:/home/mitjari/POPRAVKI/test/movegenerator/rand64.cpp
+	"rand64.h"
+
+1450466967 /home/mitjari/POPRAVKI/test/movegenerator/rand64.h
+	<stdint.h>
+
+1455555264 source:/home/mitjari/POPRAVKI/test/movegenerator/utility.cpp
+	<chrono>
+	<thread>
+	"utility.h"
+
+1450469524 source:/home/mitjari/POPRAVKI/test/movegenerator/zobrist.cpp
+	<iostream>
+	"zobrist.h"
+	"chessboard.h"
+	"rand64.h"
+	"move.h"
+
+1473240698 source:/home/mitjari/POPRAVKI/test/Node.cpp
+	<iostream>
+	<sstream>
+	"Node.h"
+	"movegenerator/movearray.h"
+
+1455529925 source:/home/mitjari/POPRAVKI/test/Problem.cpp
+	<fstream>
+	<iostream>
+	<sstream>
+	<cctype>
+	"Problem.h"
+
